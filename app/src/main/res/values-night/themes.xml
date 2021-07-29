@@ -3,7 +3,11 @@
     <style name="Theme.ShareLove" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_200</item>
+<<<<<<< HEAD
         <item name="colorPrimaryVariant">@color/botoncolor</item>
+=======
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+>>>>>>> 31bf92d3b364a1baceba9c72b4f1233e843b39aa
         <item name="colorOnPrimary">@color/black</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

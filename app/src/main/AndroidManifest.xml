@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShareLove">
+<<<<<<< HEAD
         <activity android:name=".Seleccionar"></activity>
         <activity android:name=".Compartiendo" />
         <activity android:name=".Comida" />
@@ -16,6 +17,8 @@
         <activity android:name=".RecuperarContrasena" />
         <activity android:name=".Menu" />
         <activity android:name=".CrearCuenta" />
+=======
+>>>>>>> 31bf92d3b364a1baceba9c72b4f1233e843b39aa
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,10 +26,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
 
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+=======
+>>>>>>> 31bf92d3b364a1baceba9c72b4f1233e843b39aa
     </application>
 
 </manifest>
