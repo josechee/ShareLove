@@ -137,7 +137,7 @@
         android:translationY="-1.08sp" />
 
     <Button
-        android:id="@+id/creaf_cuenta"
+        android:id="@+id/crear_cuenta"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_alignParentTop="true"
