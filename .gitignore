@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Built application files
 *.apk
 *.aar
@@ -88,7 +88,7 @@ lint/tmp/
 
 # Android Profiling
 *.hprof
-=======
+
 *.iml
 .gradle
 /local.properties
@@ -104,4 +104,4 @@ lint/tmp/
 .externalNativeBuild
 .cxx
 local.properties
->>>>>>> 31bf92d3b364a1baceba9c72b4f1233e843b39aa
+
