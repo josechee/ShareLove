@@ -5,4 +5,15 @@
     <string name="contraseña">Contraseña</string>
     <string name="logo_sharel">-ShareLove-</string>
     <string name="botontext">Iniciar sesión</string>
+    <string name="olvidaste_t">¿Olvidaste tu contraseña?</string>
+    <string name="no_tienes_usuario">¿No tienes una cuenta?</string>
+    <string name="botontextcrearcuenta">Crear cuenta</string>
+    <string name="crea_tu_cuenta">¡Crea tu cuenta, unete y comparte felicidad!</string>
+    <string name="correotext">Correo electronico</string>
+    <string name="Telefonotext">Teléfono</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="text">Crear cuenta</string>
+    <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="text_botonComida">Comida</string>
+    <string name="text_menuPrincipal">Menú principal</string>
 </resources>

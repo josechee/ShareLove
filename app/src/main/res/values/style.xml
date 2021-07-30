@@ -20,4 +20,36 @@
         <item name="android:shadowDy">4</item>
         <item name="android:shadowRadius">4</item>
     </style>
+    <style name="olvidaste_t">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#B31F3A52</item>
+    </style>
+    <style name="no_tienes_u">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B31F3A52</item>
+    </style>
+    <style name="crea_tu_cuenta">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#1F3A52</item>
+    </style>
+    <style name="correoelctronicotext">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="telefonotext">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="dd_mm_yyyy">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="botonCrearCuentatext">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="ya_tienes_una_cuenta">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#B31F3A52</item>
+    </style>
 </resources>

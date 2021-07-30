@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShareLove">
+        <activity android:name=".Seleccionar"></activity>
+        <activity android:name=".Compartiendo" />
+        <activity android:name=".Comida" />
+        <activity android:name=".Articulos" />
+        <activity android:name=".RecuperarContrasena" />
+        <activity android:name=".Menu" />
+        <activity android:name=".CrearCuenta" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
