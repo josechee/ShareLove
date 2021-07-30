@@ -14,4 +14,6 @@
     <string name="dd_mm_yyyy">dd/mm/yyyy</string>
     <string name="text">Crear cuenta</string>
     <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
+    <string name="text_botonComida">Comida</string>
+    <string name="text_menuPrincipal">Menú principal</string>
 </resources>
