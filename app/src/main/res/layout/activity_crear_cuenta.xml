@@ -87,7 +87,7 @@
         android:layout_marginEnd="20dp"
         android:background="@drawable/shadow_1"
         android:gravity="center_vertical"
-        android:hint="@string/usuario"
+        android:hint="@string/correo"
         android:lineSpacingExtra="2sp"
         android:textAppearance="@style/text"
         tools:ignore="Autofill,TextFields" />

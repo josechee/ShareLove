@@ -16,4 +16,5 @@
     <string name="ya_tienes_una_cuenta">¿Ya tienes una cuenta?</string>
     <string name="text_botonComida">Comida</string>
     <string name="text_menuPrincipal">Menú principal</string>
+    <string name="login_alternativo">ó</string>
 </resources>
