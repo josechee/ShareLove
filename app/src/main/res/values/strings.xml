@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">ShareLove</string>
     <string name="frase"> Únete a la comunidad de vecinos que comparten felicidad!</string>
-    <string name="usuario">   Usuario</string>
+    <string name="correo">Correo Electrónico</string>
     <string name="contraseña">Contraseña</string>
     <string name="logo_sharel">-ShareLove-</string>
     <string name="botontext">Iniciar sesión</string>

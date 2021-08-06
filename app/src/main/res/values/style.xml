@@ -14,7 +14,7 @@
     </style>
     <style name="logo_sharelove">
         <item name="android:textSize">40sp</item>
-        <item name="android:textColor">@color/verde</item>
+        <item name="android:textColor">@color/texto</item>
         <item name="android:shadowColor">#40000000</item>
         <item name="android:shadowDx">0</item>
         <item name="android:shadowDy">4</item>
