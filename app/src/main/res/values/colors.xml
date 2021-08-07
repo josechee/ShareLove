@@ -9,6 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="appcolor">#8CCA6E</color>
     <color name="gris">#E5E5E5</color>
-    <color name="texto">#1F3A52</color>
+    <color name="texto">#B31F3A52</color>
+    <color name="texto_100">#1F3A52</color>
     <color name="botoncolor">#41A186</color>
 </resources>

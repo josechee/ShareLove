@@ -7,6 +7,24 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/buttonFacebook2"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:text="@string/btn_google"
+        android:textAlignment="viewStart"
+        android:textColor="@color/texto"
+        android:textSize="16sp"
+        app:icon="@drawable/icon_google"
+        app:iconTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonFacebook" />
+
     <View
         android:id="@+id/toolbar"
         android:layout_width="0dp"
@@ -30,6 +48,7 @@
         android:lineSpacingExtra="1sp"
         android:text="@string/frase"
         android:textAppearance="@style/frase"
+        android:textColor="@color/texto_100"
         android:translationY="-0.59sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
@@ -41,7 +60,7 @@
         android:id="@+id/usuario"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/shadow_1"
         android:fontFamily="@font/montserrat"
         android:gravity="center_vertical"
@@ -52,12 +71,13 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:textAppearance="@style/text"
-        android:textColor="@color/texto"
+        android:textColor="@color/texto_100"
         android:textColorLink="#8BC34A"
         android:textCursorDrawable="@drawable/cursor"
         android:textSize="18sp"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
@@ -65,7 +85,7 @@
         android:id="@+id/contraseña"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/shadow_1"
         android:fontFamily="@font/montserrat"
         android:gravity="center_vertical"
@@ -76,7 +96,7 @@
         android:paddingLeft="16dp"
         android:paddingRight="16dp"
         android:textAppearance="@style/text"
-        android:textColor="@color/texto"
+        android:textColor="@color/texto_100"
         android:textColorLink="#8BC34A"
         android:textCursorDrawable="@drawable/cursor"
         android:textSize="18sp"
@@ -91,7 +111,7 @@
         style="@style/Widget.AppCompat.Button"
         android:layout_width="320dp"
         android:layout_height="56dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat"
         android:lineSpacingExtra="1sp"
         android:text="@string/botontext"
@@ -106,17 +126,18 @@
         android:id="@+id/olvidaste_contraseña"
         android:layout_width="194dp"
         android:layout_height="20dp"
-        android:layout_marginTop="108dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="2sp"
         android:text="@string/olvidaste_t"
         android:textAppearance="@style/olvidaste_t"
+        android:textColor="@color/texto"
         android:translationY="-0.86sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonFacebook2" />
 
     <TextView
         android:id="@+id/no_tienes_u"
@@ -128,6 +149,7 @@
         android:lineSpacingExtra="2sp"
         android:text="@string/no_tienes_usuario"
         android:textAppearance="@style/no_tienes_u"
+        android:textColor="@color/texto"
         android:translationY="-1.08sp"
         app:layout_constraintEnd_toStartOf="@+id/crear_cuenta"
         app:layout_constraintHorizontal_bias="0.571"
@@ -203,8 +225,27 @@
         android:fontFamily="@font/montserrat"
         android:text="@string/login_alternativo"
         android:textColor="?attr/colorButtonNormal"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion" />
+
+    <Button
+        android:id="@+id/buttonFacebook"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="320dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:inputType="text"
+        android:text="@string/btn_facebook"
+        android:textAlignment="viewStart"
+        android:textColor="@color/texto"
+        android:textSize="16sp"
+        app:icon="@drawable/icon_facebook"
+        app:iconTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
