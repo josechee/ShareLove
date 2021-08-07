@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttonFacebook2"
+        android:id="@+id/buttonGoogle"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
         android:layout_width="320dp"
         android:layout_height="48dp"
@@ -57,7 +57,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/usuario"
+        android:id="@+id/inputCorreo"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
@@ -82,7 +82,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <EditText
-        android:id="@+id/contraseña"
+        android:id="@+id/InputPass"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
@@ -104,7 +104,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usuario" />
+        app:layout_constraintTop_toBottomOf="@+id/inputCorreo" />
 
     <Button
         android:id="@+id/buttonIniciarSesion"
@@ -120,10 +120,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/InputPass" />
 
     <TextView
-        android:id="@+id/olvidaste_contraseña"
+        android:id="@+id/ButtonRecuperarPass"
         android:layout_width="194dp"
         android:layout_height="20dp"
         android:layout_marginTop="16dp"
@@ -137,7 +137,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonFacebook2" />
+        app:layout_constraintTop_toBottomOf="@+id/buttonGoogle" />
 
     <TextView
         android:id="@+id/no_tienes_u"
@@ -151,13 +151,13 @@
         android:textAppearance="@style/no_tienes_u"
         android:textColor="@color/texto"
         android:translationY="-1.08sp"
-        app:layout_constraintEnd_toStartOf="@+id/crear_cuenta"
+        app:layout_constraintEnd_toStartOf="@+id/buttonCrearCuenta"
         app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/olvidaste_contraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/ButtonRecuperarPass" />
 
     <Button
-        android:id="@+id/crear_cuenta"
+        android:id="@+id/buttonCrearCuenta"
         android:layout_width="150dp"
         android:layout_height="40dp"
         android:layout_marginTop="44dp"
@@ -168,7 +168,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/olvidaste_contraseña" />
+        app:layout_constraintTop_toBottomOf="@+id/ButtonRecuperarPass" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"

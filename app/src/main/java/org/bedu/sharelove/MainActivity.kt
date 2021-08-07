@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        boton = findViewById(R.id.crear_cuenta)
+        boton = findViewById(R.id.buttonCrearCuenta)
         boton.setOnClickListener {
 
             startActivity(Intent(this, CrearCuenta::class.java))
@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(Intent(this, Menu::class.java))
         }
-        boton3 = findViewById(R.id.olvidaste_contraseña)
+        boton3 = findViewById(R.id.ButtonRecuperarPass)
         boton3.setOnClickListener {
 
             startActivity(Intent(this, RecuperarContrasena::class.java))
