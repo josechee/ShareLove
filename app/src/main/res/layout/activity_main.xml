@@ -13,7 +13,6 @@
         android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:inputType="text"
         android:text="@string/btn_google"
         android:textAlignment="viewStart"
         android:textColor="@color/texto"
@@ -189,6 +188,7 @@
         android:layout_width="wrap_content"
         android:layout_height="60dp"
         android:layout_marginTop="40dp"
+        android:contentDescription="@string/logo_sharelove"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toStartOf="parent"
@@ -196,10 +196,11 @@
         app:srcCompat="@drawable/logo" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/barraIzquierda"
         android:layout_width="130dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/barraizquierda"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.163"
         app:layout_constraintStart_toStartOf="parent"
@@ -207,10 +208,11 @@
         app:srcCompat="@drawable/frame_inicio" />
 
     <ImageView
-        android:id="@+id/imageView9"
+        android:id="@+id/barraDerecha"
         android:layout_width="130dp"
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
+        android:contentDescription="@string/barraderecha"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="parent"
@@ -236,7 +238,6 @@
         android:layout_width="320dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
-        android:inputType="text"
         android:text="@string/btn_facebook"
         android:textAlignment="viewStart"
         android:textColor="@color/texto"
@@ -246,6 +247,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+        app:layout_constraintTop_toBottomOf="@+id/barraIzquierda" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
