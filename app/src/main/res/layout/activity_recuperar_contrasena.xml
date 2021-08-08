@@ -109,7 +109,7 @@
     <Button
         android:id="@+id/containedButton"
         android:layout_width="320dp"
-        android:layout_height="48dp"
+        android:layout_height="56dp"
         android:layout_marginTop="24dp"
         android:text="@string/btn_recuperar"
         android:textAllCaps="false"
@@ -118,13 +118,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputPass"/>
+        app:layout_constraintTop_toBottomOf="@+id/inputPass" />
 
     <Button
         android:id="@+id/outlinedButton"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="320dp"
-        android:layout_height="48dp"
+        android:layout_height="56dp"
         android:layout_marginTop="16dp"
         android:text="@string/btn_volver_inicio"
         android:textAllCaps="false"
