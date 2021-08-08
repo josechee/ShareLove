@@ -12,4 +12,5 @@
     <color name="texto">#B31F3A52</color>
     <color name="texto_100">#1F3A52</color>
     <color name="botoncolor">#41A186</color>
+    <color name="ripple_btn_container">#4D2B6A58</color>
 </resources>

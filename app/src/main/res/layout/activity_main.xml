@@ -45,7 +45,7 @@
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="1sp"
-        android:text="@string/frase"
+        android:text="@string/mensaje_slogan"
         android:textAppearance="@style/frase"
         android:textColor="@color/texto_100"
         android:translationY="-0.59sp"
@@ -56,7 +56,7 @@
         tools:ignore="MissingConstraints" />
 
     <EditText
-        android:id="@+id/inputCorreo"
+        android:id="@+id/inputCorre"
         android:layout_width="wrap_content"
         android:layout_height="48dp"
         android:layout_marginTop="24dp"
@@ -103,7 +103,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.505"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputCorreo" />
+        app:layout_constraintTop_toBottomOf="@+id/inputCorre" />
 
     <Button
         android:id="@+id/buttonIniciarSesion"
@@ -113,7 +113,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat"
         android:lineSpacingExtra="1sp"
-        android:text="@string/botontext"
+        android:text="@string/btn_iniciar_sesion"
         android:textAppearance="@style/botontext"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
@@ -146,7 +146,7 @@
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="2sp"
-        android:text="@string/no_tienes_usuario"
+        android:text="@string/no_tienes_cuenta"
         android:textAppearance="@style/no_tienes_u"
         android:textColor="@color/texto"
         android:translationY="-1.08sp"
@@ -162,7 +162,7 @@
         android:layout_marginTop="44dp"
         android:background="@drawable/crear_cuenta"
         android:fontFamily="@font/montserrat"
-        android:text="@string/botontextcrearcuenta"
+        android:text="@string/btn_crear_cuenta"
         android:textSize="12sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.827"

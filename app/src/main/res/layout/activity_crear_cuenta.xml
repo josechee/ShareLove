@@ -75,7 +75,7 @@
         tools:ignore="Autofill,TextFields" />
 
     <EditText
-        android:id="@+id/inputCorreo"
+        android:id="@+id/inputCorre"
         android:layout_width="580dp"
         android:layout_height="48dp"
         android:layout_alignParentStart="true"
@@ -152,7 +152,7 @@
         android:layout_marginBottom="110dp"
         android:background="@drawable/boton"
         android:lineSpacingExtra="1sp"
-        android:text="@string/botontextcrearcuenta"
+        android:text="@string/btn_crear_cuenta"
         android:textAppearance="@style/botonCrearCuentatext"
         android:textColor="@color/white" />
 
