@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1014409501398",
+    "project_id": "sharelove-v1",
+    "storage_bucket": "sharelove-v1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014409501398:android:c8dfb3edee8670ae094777",
+        "android_client_info": {
+          "package_name": "org.bedu.sharelove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014409501398-otq7brtkb4ctggbirn6fa6nbn0fgd2i8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm_1QF4CMi0L0npafONGyGF6cQacedHRU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1014409501398-otq7brtkb4ctggbirn6fa6nbn0fgd2i8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
