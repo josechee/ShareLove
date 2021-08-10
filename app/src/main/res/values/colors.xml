@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="appcolor">#8CCA6E</color>
+    <color name="gris">#E5E5E5</color>
+    <color name="texto">#B31F3A52</color>
+    <color name="texto_100">#1F3A52</color>
+    <color name="botoncolor">#41A186</color>
+    <color name="ripple_btn_container">#4D2B6A58</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="toolbarIconColor">@color/textColorPrimary</color>
+    <color name="productGridBackgroundColor">#FFFBFA</color>
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#484848</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="secondaryColor">#ff1744</color>
+    <color name="secondaryLightColor">#ff616f</color>
+    <color name="secondaryDarkColor">#c4001d</color>
+    <color name="primaryTextColor">#000000</color>
+    <color name="secondaryTextColor">#484848</color>
+    <color name="tabBarIconColor">#1F3A52</color>
+    <color name="textColorPrimary">#484848</color>
+
+    <!-- for custom theme -->
+    <color name="redBluePrimaryColor">#8CCA6E</color>
+    <color name="redBluePrimaryLightColor">#ff5983</color>
+    <color name="redBluePrimaryDarkColor">#41A186</color>
+    <color name="redBlueSecondaryColor">#4527a0</color>
+    <color name="redBlueSecondaryLightColor">#7953d2</color>
+    <color name="redBlueSecondaryDarkColor">#000070</color>
+    <color name="redBluePrimaryTextColor">#000000</color>
+    <color name="redBlueSecondaryTextColor">#484848</color>
+</resources>

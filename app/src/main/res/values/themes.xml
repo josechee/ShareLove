@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.ShareLove" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#41A186</item>
+        <item name="colorPrimaryVariant">#67B49E</item>
+        <item name="colorOnPrimary">#C6E3DB</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#8CCA6E</item>
+        <item name="colorSecondaryVariant">#99C981</item>
+        <item name="colorOnSecondary">#E2F2DB</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

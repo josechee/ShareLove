@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="frase">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#1F3A52</item>
+    </style>
+    <style name="text">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="botontext">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="logo_sharelove">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">@color/texto</item>
+        <item name="android:shadowColor">#40000000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">4</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+    <style name="olvidaste_t">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#B31F3A52</item>
+    </style>
+    <style name="no_tienes_u">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#B31F3A52</item>
+    </style>
+    <style name="crea_tu_cuenta">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#1F3A52</item>
+    </style>
+    <style name="correoelctronicotext">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="telefonotext">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="dd_mm_yyyy">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#D0C9D6</item>
+    </style>
+    <style name="botonCrearCuentatext">
+        <item name="android:textSize">17sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+    <style name="ya_tienes_una_cuenta">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#B31F3A52</item>
+    </style>
+    <!-- Estilos para el Text Field -->
+    <style name="Bedu.HintText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+    </style>
+
+    <style name="Bedu.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="hintTextAppearance">@style/Bedu.HintText</item>
+        <item name="hintTextColor">?attr/colorAccent</item>
+        <item name="android:textColorHint">?attr/colorPrimaryDark</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="boxStrokeColor">?attr/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.RedBlue" parent="Theme.MaterialComponents.Light.NoActionBar">\
+        <!-- utilizado para el app bar y otros elementos UI primario -->
+        <item name="colorPrimary">@color/redBluePrimaryColor</item>
+        <!-- utilizado para el status bar, etc. -->
+        <item name="colorPrimaryDark">@color/redBluePrimaryDarkColor</item>
+        <!-- utilizado por defecto par acentuar en checkboxes inputs, switch, etc. -->
+        <item name="colorAccent">@color/redBlueSecondaryColor</item>
+        <item name="android:textColorPrimary">@color/redBluePrimaryTextColor</item>
+        <item name="android:textColorSecondary">@color/redBlueSecondaryTextColor</item>
+    </style>
+    <style name="Bedu.TextInputLayout.Login" parent="Bedu.TextInputLayout">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginEnd">24dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+
+    <!-- Botón -->
+
+    <style name="Bedu.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">?android:attr/textColorPrimary</item>
+        <item name="backgroundTint">?attr/colorAccent</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="Toolbar.Theme" parent="AppTheme.RedBlue">
+        <item name="android:textColorPrimary">?android:attr/textColorSecondary</item>
+    </style>
+
+    <style name="Toolbar" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">?attr/colorPrimary</item>
+        <item name="android:theme">@style/Toolbar.Theme</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="titleTextAppearance">@style/Toolbar</item>
+    </style>
+</resources>
