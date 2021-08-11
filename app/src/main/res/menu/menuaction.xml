@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opciones"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/food"
+        android:title="@string/drawer.food"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/buttonBack"
+        android:icon="@drawable/back"
+        android:title="@string/item"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/logo"
+        android:title="@string/sharelove"
+        android:fontFamily="@font/pattaya"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buttonNotification"
+        android:icon="@drawable/bell_badge"
+        android:title="@string/drawer.notificacion"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buttonProfile"
+        android:icon="@drawable/account"
+        android:title="@string/drawer.account"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buttonShearch"
+        android:icon="@drawable/share"
+        android:title="@string/share"
+        app:showAsAction="always" />
+</menu>

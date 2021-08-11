@@ -1,4 +1,4 @@
-package org.bedu.themes
+package org.bedu.sharelove
 
 import android.annotation.SuppressLint
 import android.os.Bundle
@@ -11,9 +11,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.GridLayoutManager
 import kotlinx.android.synthetic.main.fragment_minuta.*
 import kotlinx.android.synthetic.main.fragment_minuta.view.*
-import org.bedu.sharelove.GridDecoration
-import org.bedu.sharelove.Product
-import org.bedu.sharelove.R
+
 
 class MainFragment : Fragment() {
 
@@ -42,11 +40,7 @@ class MainFragment : Fragment() {
         return view
     }
 
-//    //Agregar el menú de opciones al AppBar
-//    override fun onCreateOptionsMenu(menu: Menu, menuInflater: MenuInflater){
-//        menuInflater.inflate(R.menu.toolbar_menu, menu)
-//        return super.onCreateOptionsMenu(menu,menuInflater)
-//    }
+//
 
     //asignamos las acciones para cada opción del AppBar
 
