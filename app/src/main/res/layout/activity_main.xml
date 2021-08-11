@@ -44,10 +44,12 @@
         android:textAppearance="@style/frase"
         android:textColor="@color/texto_100"
         android:translationY="-0.59sp"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/logoInicio"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <com.google.android.material.textfield.TextInputLayout
@@ -160,6 +162,24 @@
         app:layout_constraintTop_toBottomOf="@+id/barraDerecha"
         app:strokeColor="@color/botoncolor" />
 
+
+    <Button
+        android:id="@+id/BtnCrearCuenta"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_crear_cuenta"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:iconPadding="4dp"
+        app:iconTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonRecuperarPass"
+        app:strokeColor="@color/botoncolor" />
 
     <TextView
         android:id="@+id/ButtonRecuperarPass"

@@ -28,5 +28,6 @@
     <string name="btn_volver_inicio">Regresar al inicio</string>
     <string name="label_correo">Correo electrónico</string>
     <string name="label_contraseña">Contraseña</string>
+    <string name="label_nombre">Nombre</string>
     <string name="suffix_correo">\@example.com</string>
 </resources>
