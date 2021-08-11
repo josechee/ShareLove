@@ -69,10 +69,11 @@ class MainFragment : Fragment() {
         recyclerProducts.setHasFixedSize(true)
         recyclerProducts.layoutManager = GridLayoutManager(
             activity,
-            2,
+            1,
             GridLayoutManager.VERTICAL,
             false
         )
+
 
         val largePadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing)
         val smallPadding = resources.getDimensionPixelSize(R.dimen.product_grid_spacing_small)
