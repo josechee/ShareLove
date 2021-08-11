@@ -13,4 +13,27 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+    <style name="Theme.ShareLove2" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#8CCA6E</item>
+        <item name="colorPrimaryVariant">#8CCA6E</item>
+        <item name="colorOnPrimary">#C6E3DB</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#8CCA6E</item>
+        <item name="colorSecondaryVariant">#99C981</item>
+        <item name="colorOnSecondary">#E2F2DB</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.ShareLove.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ShareLove.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ShareLove.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
 </resources>

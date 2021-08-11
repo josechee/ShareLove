@@ -3,6 +3,7 @@ package org.bedu.sharelove
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.widget.Button
 import android.widget.ImageButton
 
@@ -26,8 +27,13 @@ class Comida : AppCompatActivity() {
 
         botonMenuPrincipal.setOnClickListener {
 
-            startActivity(Intent(this, Menu::class.java))
+            startActivity(Intent(this, VistaPrincipal::class.java))
         }
 
+    }
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        val inflater = menuInflater
+        inflater.inflate(R.menu.menuaction, menu)
+        return super.onCreateOptionsMenu(menu)
     }
 }

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">ShareLove</string>
-    <string name="mensaje_inicio"> Únete a la comunidad de vecinos que comparten felicidad!</string>
+    <string name="mensaje_slogan"> Únete a la comunidad de vecinos que comparten felicidad!</string>
     <string name="correo">Correo Electrónico</string>
     <string name="contraseña">Contraseña</string>
     <string name="logo_sharel">-ShareLove-</string>
@@ -29,4 +29,41 @@
     <string name="label_correo">Correo electrónico</string>
     <string name="label_contraseña">Contraseña</string>
     <string name="suffix_correo">\@example.com</string>
+
+    <string name="delete">Eliminar</string>
+    <string name="share">Compartir</string>
+    <string name="open_drawer">Abrir</string>
+    <string name="close_drawer">Cerrar</string>
+    <string name="delete_element">Deleting element</string>
+    <string name="sharing_element">Sharing element</string>
+    <string name="user">Usuario</string>
+    <string name="email">Correo electrónico</string>
+    <string name="drawer.home">Home</string>
+    <string name="drawer.account">Cuenta</string>
+    <string name="drawer.payments">Donaciones</string>
+    <string name="drawer.settings">Configuración</string>
+    <string name="drawer.extra">Adicional</string>
+    <string name="drawer.about">Acerca de Share Love</string>
+    <string name="drawer.privacy">Aviso de Privacidad</string>
+    <string name="drawer.profile">Perfil</string>
+    <string name="drawer.locacion">Ubicación</string>
+    <string name="drawer.shirt">Ropa</string>
+    <string name="drawer.food">Comida</string>
+    <string name="drawer.notificacion">Notificación</string>
+    <string name="title_activity_perfil">Perfil</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="sharelove">ShareLove</string>
+    <string name="Agregar">Agregar</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="item">Item</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
 </resources>

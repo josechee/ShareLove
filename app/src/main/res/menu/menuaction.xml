@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/opciones"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@drawable/share"
+        android:title="@string/share"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/buttonAdd"
+        android:icon="@drawable/plus_circle"
+        android:title="@string/Agregar"
+        />
+    <item
+        android:id="@+id/buttonMenu"
+        android:icon="@drawable/home"
+        android:title="@string/text_menuPrincipal"
+        />
+    <item
+        android:id="@+id/buttonPerfil"
+        android:icon="@drawable/account"
+        android:title="@string/drawer.account"
+        />
+
+    <item
+        android:id="@+id/buttonBack"
+        android:icon="@drawable/back"
+        android:title="@string/item"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logo"
+        android:title="@string/sharelove"
+        android:fontFamily="@font/pattaya"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buttonRopa"
+        android:icon="@drawable/tshirt_crew"
+        android:title="@string/drawer.shirt"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buttonFood"
+        android:icon="@drawable/food"
+        android:title="@string/drawer.food"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/buttonShearch"
+        android:icon="@drawable/magnify"
+        android:title="@string/share"
+        app:showAsAction="always" />
+</menu>

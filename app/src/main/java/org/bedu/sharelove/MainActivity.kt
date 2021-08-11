@@ -14,15 +14,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-      /*  boton = findViewById(R.id.buttonCrearCuenta)
+        boton = findViewById(R.id.buttonCrearCuenta)
         boton.setOnClickListener {
 
             startActivity(Intent(this, CrearCuenta::class.java))
-        }*/
+        }
         boton2 = findViewById(R.id.buttonIniciarSesion)
         boton2.setOnClickListener {
 
-            startActivity(Intent(this, Menu::class.java))
+            startActivity(Intent(this, VistaPrincipal::class.java))
         }
         boton3 = findViewById(R.id.ButtonRecuperarPass)
         boton3.setOnClickListener {
