@@ -5,9 +5,12 @@
       <map>
         <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/drawable/im.xml" value="0.17864583333333334" />
         <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/layout/activity_articulos.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/layout/activity_comida.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/layout/activity_crear_cuenta.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/layout/activity_main.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/layout/activity_vistaprincipal.xml" value="0.15833333333333333" />
         <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/menu/menuaction.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/REISEN/AndroidStudioProjects/MASTERCAMBIOS/app/src/main/res/menu/toolbar_menu.xml" value="0.15833333333333333" />
       </map>
     </option>
   </component>

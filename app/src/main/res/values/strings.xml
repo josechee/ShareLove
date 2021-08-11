@@ -28,7 +28,9 @@
     <string name="btn_volver_inicio">Regresar al inicio</string>
     <string name="label_correo">Correo electrónico</string>
     <string name="label_contraseña">Contraseña</string>
+    <string name="label_nombre">Nombre</string>
     <string name="suffix_correo">\@example.com</string>
+    <string name="mensaje_inicio"> Únete a la comunidad de vecinos que comparten felicidad!</string>
 
     <string name="delete">Eliminar</string>
     <string name="share">Compartir</string>

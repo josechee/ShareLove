@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        boton = findViewById(R.id.buttonCrearCuenta)
+        boton = findViewById(R.id.BtnCrearCuenta)
         boton.setOnClickListener {
 
             startActivity(Intent(this, CrearCuenta::class.java))
