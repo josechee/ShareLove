@@ -6,34 +6,50 @@
         android:id="@+id/opciones"
         android:checkable="false"
         android:enabled="true"
-        android:icon="@drawable/food"
-        android:title="@string/drawer.food"
+        android:icon="@drawable/share"
+        android:title="@string/share"
         android:visible="true"
         app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/buttonAdd"
+        android:icon="@drawable/plus_circle"
+        android:title="@string/Agregar"
+        />
+    <item
+        android:id="@+id/buttonMenu"
+        android:icon="@drawable/home"
+        android:title="@string/text_menuPrincipal"
+        />
+    <item
+        android:id="@+id/buttonPerfil"
+        android:icon="@drawable/account"
+        android:title="@string/drawer.account"
+        />
 
     <item
         android:id="@+id/buttonBack"
         android:icon="@drawable/back"
         android:title="@string/item"
         app:showAsAction="always" />
+
     <item
         android:id="@+id/logo"
         android:title="@string/sharelove"
         android:fontFamily="@font/pattaya"
         app:showAsAction="always" />
     <item
-        android:id="@+id/buttonNotification"
-        android:icon="@drawable/bell_badge"
-        android:title="@string/drawer.notificacion"
+        android:id="@+id/buttonRopa"
+        android:icon="@drawable/tshirt_crew"
+        android:title="@string/drawer.shirt"
         app:showAsAction="always" />
     <item
-        android:id="@+id/buttonProfile"
-        android:icon="@drawable/account"
-        android:title="@string/drawer.account"
+        android:id="@+id/buttonFood"
+        android:icon="@drawable/food"
+        android:title="@string/drawer.food"
         app:showAsAction="always" />
     <item
         android:id="@+id/buttonShearch"
-        android:icon="@drawable/share"
+        android:icon="@drawable/magnify"
         android:title="@string/share"
         app:showAsAction="always" />
 </menu>
