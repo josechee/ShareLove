@@ -48,17 +48,17 @@ class MainFragment : Fragment() {
     private fun getProducts(): MutableList<Product>{
         var products:MutableList<Product> = ArrayList()
 
-        products.add(Product("Hamburguesa", "Disponible el 20 de noviembre", "2",4.6f,R.drawable.hamburguesa))
-        products.add(Product("Manzanas", "10ma Generación", "12",4.4f,R.drawable.manzanas))
-        products.add(Product("Platillo de Brochetas", "Disponible Prime", "1",3.8f,R.drawable.brochetas))
-        products.add(Product("Coctel de Frutas", "Noise Cancelling", "5",4.8f,R.drawable.coctel))
-        products.add(Product("Verduras y Frutas", "Noise Cancelling", "5",4.8f,R.drawable.verduras))
-        products.add(Product("Platillo de Queso", "Noise Cancelling", "2",4.8f,R.drawable.sincronizadas))
-        products.add(Product("Hot Dog", "Noise Cancelling", "3",4.8f,R.drawable.hotdog))
-        products.add(Product("Legumbres", "Noise Cancelling", "4",4.8f,R.drawable.legumbres))
-        products.add(Product("Sueter", "Noise Cancelling", "1",4.8f,R.drawable.sueter))
-        products.add(Product("Atuendo", "Noise Cancelling", "1",4.8f,R.drawable.atuendo))
-        products.add(Product("Ropa Deportiva", "Noise Cancelling", "2",4.8f,R.drawable.deportiva))
+        products.add(Product("Hamburguesa", "Regalo 3 hamburguesas, favor de mandar mensaje para acordar el punto de encuentro", "2",4.6f,R.drawable.hamburguesa))
+        products.add(Product("2 kilos de manzanas", "Estan en buenas condiciones, tengo mas kilos por si alguien quiere puede venir por ellas", "12",4.4f,R.drawable.manzanas))
+        products.add(Product("Brochetas de res", "Regalo platillo de brochetas, estoy por la colonia centro, favor de mandarme privado entrego de 10am a 12pm", "10",3.8f,R.drawable.brochetas))
+        products.add(Product("Regalo fruta picada", "Tenemos mucha fruta picada, nosotros vendemos y se quedo no quiero que se heche a perder, por favor pasen por ella", "5",4.8f,R.drawable.coctel))
+        products.add(Product("Despensa de verduras", "Regalo verdura, a mis hijos no les gustan, espero que a alguien mas les puedan servir", "5",4.8f,R.drawable.verduras))
+        products.add(Product("Platillo de lasaña", "Regalo platillo de lasaña es para dos personas ", "2",4.8f,R.drawable.sincronizadas))
+        products.add(Product("Hot Dog", "Hola tenemos todo lo necesario para que preparen unos hot dogs, pueden pasar por las cosas, estoy cerca de la colonia centro", "3",4.8f,R.drawable.hotdog))
+        products.add(Product("Latas de verduras", "regalo latas de verdura y atun, tengo 6 piezas, si quieres puedes pasar por ellas por la tarde, manden mensaje para acordar la hora", "6",4.8f,R.drawable.legumbres))
+        products.add(Product("Sueter talla xl", "Regalo sueter, tengo mas ropa en buen estado, que ya no quedo, tambien tengo ropa de bebe", "1",4.8f,R.drawable.sueter))
+        products.add(Product("traje de 2 piezas color blanco", "Hola regalo este traje era de mi madre pero ya no le gusta esta en buen estado, pueden pasar por el", "1",4.8f,R.drawable.atuendo))
+        products.add(Product("Regalo conunto deportivo", "No me quedo, es talla mediana, esta nuevo pero ya no puedo regresarlo a la tienda, si  te gusta y es de tu talla puedes pasar por el.", "1",4.8f,R.drawable.deportiva))
 
         return products
     }
