@@ -58,9 +58,9 @@
 
                 <TextView
                     android:id="@+id/tvDescription"
-                    android:layout_width="279dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
+                    android:layout_width="258dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="8dp"
                     android:layout_marginRight="32dp"
                     android:fontFamily="@font/montserrat"
                     android:text="Detalle descricion"
@@ -69,31 +69,40 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="match_parent"
                     android:layout_gravity="center|center_vertical"
 
-                    android:layout_margin="8dp"
+                    android:layout_marginTop="8dp"
                     android:orientation="horizontal">
 
-                    <com.google.android.material.button.MaterialButton
+                    <ImageView
                         android:id="@+id/location"
-                        style="?attr/borderlessButtonStyle"
-                        android:layout_width="32dp"
-                        android:layout_height="wrap_content"
-                        android:baselineAligned="true"
+                        android:layout_width="33dp"
+                        android:layout_height="match_parent"
                         android:visibility="visible"
                         app:icon="@drawable/map_marker"
-                        tools:ignore="SpeakableTextPresentCheck" />
+                        app:srcCompat="@drawable/map_marker" />
 
                     <TextView
                         android:id="@+id/tvQuantity"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_gravity="center_vertical"
+                        android:layout_gravity="center|top|center_vertical"
                         android:layout_marginTop="16dp"
                         android:fontFamily="@font/montserrat"
                         android:gravity="center"
-                        android:text="Cantidad"
+                        android:text="distancia"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/texto" />
+                    <TextView
+                        android:id="@+id/km"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|top|center_vertical"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:text="km"
                         android:textAppearance="?attr/textAppearanceBody2"
                         android:textColor="@color/texto" />
 
@@ -106,8 +115,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_margin="8dp"
 
+                android:layout_marginBottom="8dp"
                 android:orientation="horizontal">
 
                 <com.google.android.material.button.MaterialButton
@@ -118,17 +127,14 @@
                     android:baselineAligned="false"
                     android:text="Ver mas" />
 
-                <com.google.android.material.button.MaterialButton
+                <CheckBox
                     android:id="@+id/heart"
-                    style="?attr/borderlessButtonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="8dp"
-                    android:baselineAligned="true"
+                    android:button="@drawable/cards_heart"
                     android:translationX="30dp"
-                    android:visibility="visible"
-                    app:icon="@drawable/cards_heart"
-                    tools:ignore="SpeakableTextPresentCheck" />
+                    android:visibility="visible" />
 
 
             </LinearLayout>
