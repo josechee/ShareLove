@@ -33,5 +33,6 @@ class Articulos : AppCompatActivity() {
         val inflater = menuInflater
         inflater.inflate(R.menu.menuaction, menu)
         return super.onCreateOptionsMenu(menu)
+
     }
-}
+    }
