@@ -67,25 +67,38 @@
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="@color/texto" />
 
-                <com.google.android.material.button.MaterialButton
-                    android:id="@+id/location"
-                    style="?attr/borderlessButtonStyle"
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
-                    android:baselineAligned="true"
-                    android:visibility="visible"
-                    app:icon="@drawable/map_marker"
-                    tools:ignore="SpeakableTextPresentCheck" />
-                <TextView
-                    android:id="@+id/tvQuantity"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="16dp"
-                    android:fontFamily="@font/montserrat"
-                    android:text="Cantidad"
-                    android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@color/texto" />
+                    android:layout_gravity="center|center_vertical"
+
+                    android:layout_margin="8dp"
+                    android:orientation="horizontal">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/location"
+                        style="?attr/borderlessButtonStyle"
+                        android:layout_width="32dp"
+                        android:layout_height="wrap_content"
+                        android:baselineAligned="true"
+                        android:visibility="visible"
+                        app:icon="@drawable/map_marker"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:id="@+id/tvQuantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="16dp"
+                        android:fontFamily="@font/montserrat"
+                        android:gravity="center"
+                        android:text="Cantidad"
+                        android:textAppearance="?attr/textAppearanceBody2"
+                        android:textColor="@color/texto" />
+
+
+                </LinearLayout>
 
             </LinearLayout>
 
