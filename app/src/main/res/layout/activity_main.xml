@@ -112,20 +112,19 @@
         android:id="@+id/btnCrearCuenta"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
-        android:layout_height="56dp"
-        android:layout_marginTop="64dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:layout_marginEnd="32dp"
         android:text="@string/btn_crear_cuenta"
-        android:textAlignment="viewStart"
+        android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:iconPadding="4dp"
         app:iconTint="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.824"
+        app:layout_constraintHorizontal_bias="0.942"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRecuperarPass"
-        app:layout_constraintVertical_bias="0.0"
         app:strokeColor="@color/botoncolor" />
 
     <Button
@@ -146,22 +145,21 @@
 
     <TextView
         android:id="@+id/no_tienes_u"
-        android:layout_width="166dp"
-        android:layout_height="18dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="84dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="2sp"
+
         android:text="@string/no_tienes_cuenta"
         android:textAppearance="@style/no_tienes_u"
-
         android:textColor="@color/texto"
         android:translationY="-1.08sp"
-        app:layout_constraintEnd_toStartOf="@+id/btnCrearCuenta"
-        app:layout_constraintHorizontal_bias="0.966"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.174"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnRecuperarPass" />
+        app:layout_constraintTop_toTopOf="@+id/btnCrearCuenta" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
