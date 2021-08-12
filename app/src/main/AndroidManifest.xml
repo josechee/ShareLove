@@ -10,14 +10,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ShareLove">
         <activity
+            android:name=".NavigatDrawer"
+            android:exported="true"
+            android:label="@string/title_activity_navigat_drawer"
+            android:theme="@style/Theme.ShareLove.NoActionBar" />
+        <activity
             android:name=".Perfil"
             android:exported="true"
             android:label="@string/title_activity_perfil"
             android:theme="@style/Theme.ShareLove.NoActionBar" />
-        <activity android:name=".Seleccionar" android:theme="@style/Theme.ShareLove2"/>
-        <activity android:name=".Compartiendo" android:theme="@style/Theme.ShareLove2"/>
-        <activity android:name=".Comida" android:theme="@style/Theme.ShareLove2" />
-        <activity android:name=".Articulos" android:theme="@style/Theme.ShareLove2" />
+        <activity
+            android:name=".Seleccionar"
+            android:theme="@style/Theme.ShareLove2" />
+        <activity
+            android:name=".Compartiendo"
+            android:theme="@style/Theme.ShareLove2" />
+        <activity
+            android:name=".Comida"
+            android:theme="@style/Theme.ShareLove2" />
+        <activity
+            android:name=".Articulos"
+            android:theme="@style/Theme.ShareLove2" />
         <activity android:name=".RecuperarContrasena" />
         <activity android:name=".VistaPrincipal" />
         <activity android:name=".CrearCuenta" />
