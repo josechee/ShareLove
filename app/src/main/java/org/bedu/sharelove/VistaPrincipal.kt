@@ -16,10 +16,10 @@ import kotlinx.android.synthetic.main.activity_vistaprincipal.view.*
 import org.bedu.sharelove.databinding.ActivityMainBinding
 
 
-class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
+class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
 
 //    private lateinit var botonArticulo: ImageButton
-//    private lateinit var botonComida: ImageButton
+////    private lateinit var botonComida: ImageButton
 //    private lateinit var appBarConfiguration: AppBarConfiguration
 //    private lateinit var binding: ActivityMainBinding
     private lateinit var drawer: DrawerLayout
@@ -31,28 +31,29 @@ class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelec
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_vistaprincipal)
 
-        val toolbar: Toolbar = findViewById(R.id.app_bar)
-        val appBar = findViewById<Toolbar>(R.id.app_bar)
-        this.setSupportActionBar(appBar)
+    val toolbar: Toolbar = findViewById(R.id.app_bar)
+    val appBar = findViewById<Toolbar>(R.id.app_bar)
+    this.setSupportActionBar(appBar)
 
-        setSupportActionBar(toolbar)
-        drawer = findViewById(R.id.drawer_layout)
-        toggle =ActionBarDrawerToggle(this,drawer,toolbar, R.string.navigation_drawer_open,R.string.navigation_drawer_close)
-        drawer.addDrawerListener(toggle)
-        setupDrawer(appBar)
+    setSupportActionBar(toolbar)
+    drawer = findViewById(R.id.drawer_layout)
+    toggle =ActionBarDrawerToggle(this,drawer,toolbar, R.string.navigation_drawer_open,R.string.navigation_drawer_close)
+    drawer.addDrawerListener(toggle)
+    setupDrawer(appBar)
 
-        if (savedInstanceState == null) {
-            supportFragmentManager
-                .beginTransaction()
-                .add(R.id.fragment_container, MainFragment())
-                .commit()
-        }
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        supportActionBar?.setHomeButtonEnabled(true)
-
-        val navigationView: NavigationView = findViewById(R.id.nav_view)
-        navigationView.setNavigationItemSelectedListener(this)
+    if (savedInstanceState == null) {
+        supportFragmentManager
+            .beginTransaction()
+            .add(R.id.fragment_container, MainFragment())
+            .commit()
     }
+    supportActionBar?.setDisplayHomeAsUpEnabled(true)
+    supportActionBar?.setHomeButtonEnabled(true)
+
+    val navigationView: NavigationView = findViewById(R.id.nav_view)
+    navigationView.setNavigationItemSelectedListener(this)
+}
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
@@ -104,7 +105,46 @@ class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelec
 
 }
 
-
+//    private lateinit var appBarConfiguration: AppBarConfiguration
+//    private lateinit var binding: ActivityNavigatDrawerBinding
+//
+//    override fun onCreate(savedInstanceState: Bundle?) {
+//        super.onCreate(savedInstanceState)
+//
+//        binding = ActivityNavigatDrawerBinding.inflate(layoutInflater)
+//        setContentView(binding.root)
+//
+//        setSupportActionBar(binding.appBarNavigatDrawer.toolbar)
+//
+//        binding.appBarNavigatDrawer.fab.setOnClickListener { view ->
+//            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+//                .setAction("Action", null).show()
+//        }
+//        val drawerLayout: DrawerLayout = binding.drawerLayout
+//        val navView: NavigationView = binding.navView
+//        val navController = findNavController(R.id.nav_host_fragment_content_navigat_drawer)
+//        // Passing each menu ID as a set of Ids because each
+//        // menu should be considered as top level destinations.
+//        appBarConfiguration = AppBarConfiguration(
+//            setOf(
+//                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow
+//            ), drawerLayout
+//        )
+//        setupActionBarWithNavController(navController, appBarConfiguration)
+//        navView.setupWithNavController(navController)
+//    }
+//
+//    override fun onCreateOptionsMenu(menu: Menu): Boolean {
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//        menuInflater.inflate(R.menu.navigat_drawer, menu)
+//        return true
+//    }
+//
+//    override fun onSupportNavigateUp(): Boolean {
+//        val navController = findNavController(R.id.nav_host_fragment_content_navigat_drawer)
+//        return navController.navigateUp(appBarConfiguration) || super.onSupportNavigateUp()
+//    }
+//}
 
 
 
