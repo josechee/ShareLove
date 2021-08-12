@@ -48,7 +48,7 @@ class MainFragment : Fragment() {
     private fun getProducts(): MutableList<Product>{
         var products:MutableList<Product> = ArrayList()
 
-        products.add(Product("Hamburgues", "Disponible el 20 de noviembre", "2",4.6f,R.drawable.hamburguesa))
+        products.add(Product("Hamburguesa", "Disponible el 20 de noviembre", "2",4.6f,R.drawable.hamburguesa))
         products.add(Product("Manzanas", "10ma Generación", "12",4.4f,R.drawable.manzanas))
         products.add(Product("Platillo de Brochetas", "Disponible Prime", "1",3.8f,R.drawable.brochetas))
         products.add(Product("Coctel de Frutas", "Noise Cancelling", "5",4.8f,R.drawable.coctel))

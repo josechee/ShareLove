@@ -40,14 +40,14 @@ class RecyclerAdapter(
         //obteniendo las referencias a las Views
         val productName = view.findViewById(R.id.tvProduct) as TextView
         val description = view.findViewById(R.id.tvDescription) as TextView
-        val price = view.findViewById(R.id.tvPrice) as TextView
+        val quantity = view.findViewById(R.id.tvQuantity) as TextView
         val image = view.findViewById(R.id.imgProduct) as ImageView
 
         //"atando" los datos a las Views
         fun bind(product: Product, context: Context){
             productName.text = product.name
             description.text = product.description
-            price.text = product.price
+            quantity.text = product.quantity
             image.setImageResource(product.idImage)
         }
     }

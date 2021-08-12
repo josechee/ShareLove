@@ -6,7 +6,7 @@ import android.os.Parcelable
 class Product (
     val name: String,
     val description: String,
-    val price: String,
+    val quantity: String,
     val rating: Float,
     val idImage: Int
 ): Parcelable {
@@ -22,7 +22,7 @@ class Product (
     override fun writeToParcel(parcel: Parcel, flags: Int) {
         parcel.writeString(name)
         parcel.writeString(description)
-        parcel.writeString(price)
+        parcel.writeString(quantity)
         parcel.writeFloat(rating)
         parcel.writeInt(idImage)
     }
