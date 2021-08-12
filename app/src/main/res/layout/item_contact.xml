@@ -62,6 +62,16 @@
                     android:textAppearance="?attr/textAppearanceBody2"
                     android:textColor="?android:attr/textColorSecondary" />
 
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/location"
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:baselineAligned="true"
+                    android:visibility="visible"
+                    app:icon="@drawable/map_marker"
+                    tools:ignore="SpeakableTextPresentCheck" />
                 <TextView
                     android:id="@+id/tvQuantity"
                     android:layout_width="match_parent"
@@ -78,15 +88,28 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="8dp"
+
                 android:orientation="horizontal">
 
                 <com.google.android.material.button.MaterialButton
                     style="?attr/borderlessButtonStyle"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="8dp"
+                    android:layout_marginEnd="128dp"
                     android:baselineAligned="false"
                     android:text="Ver mas" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/heart"
+                    style="?attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:baselineAligned="true"
+                    android:translationX="30dp"
+                    android:visibility="visible"
+                    app:icon="@drawable/cards_heart"
+                    tools:ignore="SpeakableTextPresentCheck" />
 
 
             </LinearLayout>
