@@ -67,6 +67,7 @@
             android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat"
             android:inputType="textEmailAddress"
             android:textColor="@color/texto_100"
             android:textSize="18sp" />
@@ -88,6 +89,7 @@
             android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="@font/montserrat"
             android:inputType="textPassword"
             android:textColor="@color/texto_100"
             android:textSize="18sp" />
@@ -98,6 +100,7 @@
         android:layout_width="320dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/montserrat"
         android:text="@string/btn_iniciar_sesion"
         android:textAllCaps="false"
         android:textColor="@color/white"
@@ -114,7 +117,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
-        android:layout_marginEnd="32dp"
+        android:fontFamily="@font/montserrat"
         android:text="@string/btn_crear_cuenta"
         android:textAlignment="center"
         android:textAllCaps="false"
@@ -122,7 +125,7 @@
         app:iconPadding="4dp"
         app:iconTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.942"
+        app:layout_constraintHorizontal_bias="0.817"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnRecuperarPass"
         app:strokeColor="@color/botoncolor" />
@@ -147,19 +150,19 @@
         android:id="@+id/no_tienes_u"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="52dp"
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="2sp"
 
+        android:lineSpacingExtra="2sp"
         android:text="@string/no_tienes_cuenta"
         android:textAppearance="@style/no_tienes_u"
         android:textColor="@color/texto"
         android:translationY="-1.08sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.174"
+        app:layout_constraintEnd_toStartOf="@+id/btnCrearCuenta"
+        app:layout_constraintHorizontal_bias="0.818"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnCrearCuenta" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRecuperarPass" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
