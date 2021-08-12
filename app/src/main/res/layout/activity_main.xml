@@ -64,6 +64,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtCorreo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress"
@@ -84,6 +85,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtPassword"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPassword"
@@ -92,7 +94,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/buttonIniciarSesion"
+        android:id="@+id/btnIniciarSesion"
         android:layout_width="320dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -105,116 +107,61 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/inputPass" />
 
-    <ImageView
-        android:id="@+id/barraIzquierda"
-        android:layout_width="130dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/barraizquierda"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion"
-        app:srcCompat="@drawable/frame_inicio" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="6dp"
-        android:fontFamily="@font/montserrat"
-        android:text="@string/login_alternativo"
-        android:textColor="?attr/colorButtonNormal"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion" />
-
-    <ImageView
-        android:id="@+id/barraDerecha"
-        android:layout_width="130dp"
-        android:layout_height="0dp"
-        android:layout_marginTop="16dp"
-        android:contentDescription="@string/barraderecha"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion"
-        app:srcCompat="@drawable/frame_inicio" />
 
     <Button
-        android:id="@+id/btnfacebook"
-        style="?attr/materialButtonOutlinedStyle"
-        android:layout_width="320dp"
-        android:layout_height="56dp"
-        android:layout_marginTop="16dp"
-        android:text="@string/btn_facebook"
-        android:textAlignment="viewStart"
-        android:textAllCaps="false"
-        android:textSize="18sp"
-        app:icon="@drawable/baseline_facebook_24"
-        app:iconPadding="4dp"
-        app:iconTint="@null"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/barraDerecha"
-        app:strokeColor="@color/botoncolor" />
-
-
-    <Button
-        android:id="@+id/BtnCrearCuenta"
+        android:id="@+id/btnCrearCuenta"
         style="?attr/materialButtonOutlinedStyle"
         android:layout_width="wrap_content"
         android:layout_height="56dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="64dp"
         android:text="@string/btn_crear_cuenta"
         android:textAlignment="viewStart"
         android:textAllCaps="false"
         android:textSize="18sp"
         app:iconPadding="4dp"
         app:iconTint="@null"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.824"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ButtonRecuperarPass"
+        app:layout_constraintTop_toBottomOf="@+id/btnRecuperarPass"
+        app:layout_constraintVertical_bias="0.0"
         app:strokeColor="@color/botoncolor" />
 
-    <TextView
-        android:id="@+id/ButtonRecuperarPass"
-        android:layout_width="194dp"
-        android:layout_height="20dp"
+    <Button
+        android:id="@+id/btnRecuperarPass"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:fontFamily="@font/montserrat"
-        android:gravity="center_horizontal|top"
-        android:lineSpacingExtra="2sp"
         android:text="@string/olvidaste_t"
-        android:textAppearance="@style/olvidaste_t"
+        android:textAllCaps="false"
         android:textColor="@color/texto"
-        android:translationY="-0.86sp"
+        android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnfacebook" />
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
 
     <TextView
         android:id="@+id/no_tienes_u"
         android:layout_width="166dp"
         android:layout_height="18dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
         android:lineSpacingExtra="2sp"
         android:text="@string/no_tienes_cuenta"
         android:textAppearance="@style/no_tienes_u"
-        android:textColor="@color/texto"
 
+        android:textColor="@color/texto"
         android:translationY="-1.08sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.138"
+        app:layout_constraintEnd_toStartOf="@+id/btnCrearCuenta"
+        app:layout_constraintHorizontal_bias="0.966"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ButtonRecuperarPass" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRecuperarPass" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline2"
@@ -229,9 +176,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         app:layout_constraintGuide_end="16dp" />
-
-
-
 
 
 

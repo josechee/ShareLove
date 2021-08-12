@@ -129,7 +129,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/buttonIniciarSesion"
+        android:id="@+id/btnIniciarSesion"
         android:layout_width="320dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -156,7 +156,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttonIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion"
         app:strokeColor="@color/botoncolor" />
 
     <androidx.constraintlayout.widget.Guideline
