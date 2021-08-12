@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
@@ -42,34 +43,39 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Titulo"
-                    android:textAppearance="?attr/textAppearanceHeadline6" />
+                    android:textAppearance="?attr/textAppearanceHeadline6"
+                    android:textColor="@color/texto_100" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
+                    android:fontFamily="@font/montserrat"
                     android:text="@string/description"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="?android:attr/textColorSecondary"
+                    android:textColor="@color/texto"
                     android:textStyle="bold" />
 
                 <TextView
                     android:id="@+id/tvDescription"
-                    android:layout_width="wrap_content"
+                    android:layout_width="279dp"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
+                    android:layout_marginRight="32dp"
+                    android:fontFamily="@font/montserrat"
                     android:text="Detalle descricion"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="?android:attr/textColorSecondary" />
+                    android:textColor="@color/texto" />
 
                 <TextView
                     android:id="@+id/tvQuantity"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="16dp"
+                    android:fontFamily="@font/montserrat"
                     android:text="Cantidad"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="?android:attr/textColorSecondary" />
+                    android:textColor="@color/texto" />
 
             </LinearLayout>
 
