@@ -1,5 +1,7 @@
 # ShareLove  Equipo 3
 
+![vista de calculadora](img/Logo-Sharelove.png)
+
 <b>Proyecto ShareLove por Equipo 3  Becas Santander BEDU Desarrollo Móvil fase 2.</b>
 
 
@@ -40,6 +42,8 @@ puedes guardar un articulo que te guste y visualizarlo despues,puedes ver la dis
 
 Se pretende lanzarla a nivel nacional y ayudar a nuestro país y poner nuestro granito de arena para ayudar a todos nuestros hermanos.
 
+![vista de calculadora](img/captura.png)
+
 
 <hr>
 
@@ -50,6 +54,8 @@ Se realizo la Style Guide en figma utilizando los conocimientos adquiridos en la
 https://www.figma.com/file/fe12JyRIEWydr9yrVIXz0Q/ShareLove-Style-Guide-v1?node-id=0%3A1
 
 El sistema de diseño aun está en proceso por lo que solo se muestra el avance actual.
+
+![vista de calculadora](img/colores.png)
 
 
 
