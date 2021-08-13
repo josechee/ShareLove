@@ -49,7 +49,7 @@ Se pretende lanzarla a nivel nacional y ayudar a nuestro país y poner nuestro g
 
 ## Vistas Light Mode y Dark Mode
 
-![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/captura.jpeg)  ![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/capturaDark.jpeg)
+![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/capturaligth.jpeg)  ![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/capturaDark.jpeg)
 
 
 <hr>
