@@ -17,6 +17,13 @@ daniel.colorado.940426@gmail.com
 José J. Calderón C: 
 josechee.unp@gmail.com
 
+## Cuenta de Acceso a la App
+
+RECUERDA utilizar este correo y contraseña para acceder:
+
+- correo: usuario@gmail.com
+- password: 1234 
+
 
 
 
