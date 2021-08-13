@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
             startActivity(Intent(this, CrearCuenta::class.java))
         }
-        boton2 = findViewById(R.id.btnIniciarSesion)
+        boton2 = findViewById(R.id.btnCrearC)
         boton2.setOnClickListener {
             registrar()
         }

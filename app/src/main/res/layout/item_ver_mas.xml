@@ -43,8 +43,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Titulo"
-                    android:textAppearance="?attr/textAppearanceHeadline6"
-                    android:textColor="@color/texto_100" />
+                    android:textAppearance="?attr/textAppearanceHeadline6" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -53,7 +52,6 @@
                     android:fontFamily="@font/montserrat"
                     android:text="@string/description"
                     android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@color/texto"
                     android:textStyle="bold" />
 
                 <TextView
@@ -64,8 +62,7 @@
                     android:layout_marginRight="32dp"
                     android:fontFamily="@font/montserrat"
                     android:text="Detalle descricion"
-                    android:textAppearance="?attr/textAppearanceBody2"
-                    android:textColor="@color/texto" />
+                    android:textAppearance="?attr/textAppearanceBody2" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -92,8 +89,7 @@
                         android:fontFamily="@font/montserrat"
                         android:gravity="center"
                         android:text="distancia"
-                        android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@color/texto" />
+                        android:textAppearance="?attr/textAppearanceBody2" />
 
                     <TextView
                         android:id="@+id/km"
@@ -104,8 +100,7 @@
                         android:fontFamily="@font/montserrat"
                         android:gravity="center"
                         android:text="km"
-                        android:textAppearance="?attr/textAppearanceBody2"
-                        android:textColor="@color/texto" />
+                        android:textAppearance="?attr/textAppearanceBody2" />
 
 
                 </LinearLayout>
