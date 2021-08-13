@@ -5,21 +5,20 @@
 
 Este proyecto es elaborado por:
 
-José J. Calderón C: 
-josechee.unp@gmail.com
-
-Luis Daniel Colorado Camal: 
-daniel.colorado.940426@gmail.com
 
 Crystian Octavio Hernández López: 
 octaviolp@hotmail.com
 
-Maria Guadalupe Medina Caro: 
-lupitamc2703@gmail.com
+Luis Daniel Colorado Camal: 
+daniel.colorado.940426@gmail.com
+
+José J. Calderón C: 
+josechee.unp@gmail.com
+
 
 <hr>
 
-# Design System
+## Design System
 
 Se realizo la Style Guide en figma utilizando los conocimientos adquiridos en la módulo 1 del curso 'UI Fundamental'
 
@@ -29,15 +28,22 @@ El sistema de diseño aun está en proceso por lo que solo se muestra el avance 
 
 <hr>
 
-# Alcance del proyecto
+## Alcance del proyecto
 
-Se eligió este proyecto, después de hacer una investigación, de como podemos ayudar a nuestra comunidad a pasar estos momentos difíciles de la pandemia por Covid-19, ya que muchas personas han perdido su empleo, han perdido seres queridos.
+Se eligió este proyecto, después de hacer una investigación, de como podemos ayudar a nuestra comunidad a pasar estos momentos difíciles de la pandemia por Covid-19, ya que muchas personas han perdido su empleo, han perdido seres queridos, sumado a la dificil situación el desperdicio de alimentos.
 
+Siguiendo las estimaciones de la FAO sólo la capital mexicana tira a la basura cerca de 13,000 toneladas de comida cada día mientras que casi 15% de la población que habita la urbe presenta alguna carencia alimentaria.
+
+Share Love busca que las personas puedan intercambiar articulos que ellos no necesiten pero a otra persona le pueda servir.
+
+Recuerda que: <b>La basura de uno es el tesoro de otra</b>
 
 Las personas siempre están dispuestas a ayudar y apoyar al prójimo, es por eso que se toma la decisión de crear el proyecto <b> ShareLove. </b>
 
 
-A través de esta aplicación se tiene acceso a la creación de una cuenta, te permite autentificarte mediante facebook, google o crear una cuenta con un correo valido, al crear la cuenta formas parte de la comunidad de vecinos que ayudan, ¿de que manera? Tienes acceso a una interfaz para realizar donaciones, elijes un producto de tu casa o negocio que no necesites, pero pueda servir a alguien más, subes la descripción y la cantidad de productos que tienes disponible y otro vecino puede pedir y pasar por él.
+A través de esta aplicación se tiene acceso a la creación de una cuenta, te permite autentificarte  al crear una cuenta con un correo valido, al crear la cuenta formas parte de la comunidad de vecinos que ayudan, ¿de que manera? Tienes acceso a una interfaz para realizar donaciones, elijes un producto de tu casa o negocio que no necesites, pero pueda servir a alguien más, subes la descripción y la cantidad de productos que tienes disponible y otro vecino puede pedir y pasar por él.
+
+puedes guardar un articulo que te guste y visualizarlo despues,puedes ver la distancia en la que estan publicando el articulo, y lo mejor que puedes hacer nuevos amigos!!...
 
 
 Se pretende lanzarla a nivel nacional y ayudar a nuestro país y poner nuestro granito de arena para ayudar a todos nuestros hermanos.
