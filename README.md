@@ -8,14 +8,11 @@
 Este proyecto es elaborado por:
 
 
-Crystian Octavio Hernández López: 
-octaviolp@hotmail.com
+- Crystian Octavio Hernández López: octaviolp@hotmail.com
 
-Luis Daniel Colorado Camal: 
-daniel.colorado.940426@gmail.com
+- Luis Daniel Colorado Camal: daniel.colorado.940426@gmail.com
 
-José J. Calderón C: 
-josechee.unp@gmail.com
+- José J. Calderón C: josechee.unp@gmail.com
 
 ## Cuenta de Acceso a la App
 
