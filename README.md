@@ -16,15 +16,7 @@ José J. Calderón C:
 josechee.unp@gmail.com
 
 
-<hr>
 
-## Design System
-
-Se realizo la Style Guide en figma utilizando los conocimientos adquiridos en la módulo 1 del curso 'UI Fundamental'
-
-https://www.figma.com/file/fe12JyRIEWydr9yrVIXz0Q/ShareLove-Style-Guide-v1?node-id=0%3A1
-
-El sistema de diseño aun está en proceso por lo que solo se muestra el avance actual.
 
 <hr>
 
@@ -48,6 +40,16 @@ puedes guardar un articulo que te guste y visualizarlo despues,puedes ver la dis
 
 Se pretende lanzarla a nivel nacional y ayudar a nuestro país y poner nuestro granito de arena para ayudar a todos nuestros hermanos.
 
+
+<hr>
+
+## Design System
+
+Se realizo la Style Guide en figma utilizando los conocimientos adquiridos en la módulo 1 del curso 'UI Fundamental'
+
+https://www.figma.com/file/fe12JyRIEWydr9yrVIXz0Q/ShareLove-Style-Guide-v1?node-id=0%3A1
+
+El sistema de diseño aun está en proceso por lo que solo se muestra el avance actual.
 
 
 
