@@ -125,7 +125,8 @@
                     android:layout_height="wrap_content"
                     android:layout_marginEnd="128dp"
                     android:baselineAligned="false"
-                    android:text="Ver mas" />
+                    android:text="Ver mas"
+                    android:id="@+id/Vermas"/>
 
                 <CheckBox
                     android:id="@+id/heart"
@@ -135,6 +136,7 @@
                     android:button="@drawable/cards_heart"
                     android:translationX="30dp"
                     android:visibility="visible" />
+
 
 
             </LinearLayout>

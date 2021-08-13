@@ -15,6 +15,7 @@ import kotlinx.android.synthetic.main.fragment_minuta.view.*
 
 class MainFragment : Fragment() {
 
+private var listener : (Product) ->Unit = {}
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setHasOptionsMenu(true)
@@ -61,6 +62,9 @@ class MainFragment : Fragment() {
         products.add(Product("Regalo conunto deportivo", "No me quedo, es talla mediana, esta nuevo pero ya no puedo regresarlo a la tienda, si  te gusta y es de tu talla puedes pasar por el.", "1",4.8f,R.drawable.deportiva))
 
         return products
+    }
+ fun setListener(l: (Product) ->Unit){
+        listener = l
     }
 
     @SuppressLint("UseRequireInsteadOfGet")

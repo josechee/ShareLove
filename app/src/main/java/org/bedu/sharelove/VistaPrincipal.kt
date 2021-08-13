@@ -5,6 +5,7 @@ import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.*
+import android.widget.Button
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
@@ -12,31 +13,49 @@ import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
 import com.google.android.material.snackbar.Snackbar
+import org.bedu.sesion5.DetailActivity
 import org.bedu.sharelove.databinding.ActivityMainBinding
 
 
-class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener{
+class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
-//    private lateinit var botonArticulo: ImageButton
+
 ////    private lateinit var botonComida: ImageButton
 //    private lateinit var appBarConfiguration: AppBarConfiguration
 //    private lateinit var binding: ActivityMainBinding
     private lateinit var drawer: DrawerLayout
     private lateinit var toggle: ActionBarDrawerToggle
+    private lateinit var botonArticulo: Button
+
 
 
 //    private lateinit var boton: Button
     override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_vistaprincipal)
+    super.onCreate(savedInstanceState)
+    setContentView(R.layout.activity_vistaprincipal)
 
     val toolbar: Toolbar = findViewById(R.id.app_bar)
     val appBar = findViewById<Toolbar>(R.id.app_bar)
     this.setSupportActionBar(appBar)
 
+
+//    botonArticulo = findViewById(R.id.Vermas)
+//    botonArticulo.setOnClickListener {
+//        startActivity(Intent(this, DetailActivity::class.java))
+//
+//
+//    }
+
+
     setSupportActionBar(toolbar)
     drawer = findViewById(R.id.drawer_layout)
-    toggle =ActionBarDrawerToggle(this,drawer,toolbar, R.string.navigation_drawer_open,R.string.navigation_drawer_close)
+    toggle = ActionBarDrawerToggle(
+        this,
+        drawer,
+        toolbar,
+        R.string.navigation_drawer_open,
+        R.string.navigation_drawer_close
+    )
     drawer.addDrawerListener(toggle)
     setupDrawer(appBar)
 
@@ -45,14 +64,16 @@ class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelec
             .beginTransaction()
             .add(R.id.fragment_container, MainFragment())
             .commit()
+
+
     }
     supportActionBar?.setDisplayHomeAsUpEnabled(true)
     supportActionBar?.setHomeButtonEnabled(true)
 
     val navigationView: NavigationView = findViewById(R.id.nav_view)
     navigationView.setNavigationItemSelectedListener(this)
-}
 
+}
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.toolbar_menu, menu)
