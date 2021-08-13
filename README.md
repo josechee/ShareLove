@@ -46,7 +46,7 @@ puedes guardar un articulo que te guste y visualizarlo despues,puedes ver la dis
 
 Se pretende lanzarla a nivel nacional y ayudar a nuestro país y poner nuestro granito de arena para ayudar a todos nuestros hermanos.
 
-![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/captura.jpeg)
+![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/captura.jpeg)  ![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/capturaDark.jpeg)
 
 
 <hr>
