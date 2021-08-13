@@ -46,6 +46,9 @@ puedes guardar un articulo que te guste y visualizarlo despues,puedes ver la dis
 
 Se pretende lanzarla a nivel nacional y ayudar a nuestro país y poner nuestro granito de arena para ayudar a todos nuestros hermanos.
 
+
+## Vistas Light Mode y Dark Mode
+
 ![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/captura.jpeg)  ![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/capturaDark.jpeg)
 
 
@@ -58,6 +61,8 @@ Se realizo la Style Guide en figma utilizando los conocimientos adquiridos en la
 https://www.figma.com/file/fe12JyRIEWydr9yrVIXz0Q/ShareLove-Style-Guide-v1?node-id=0%3A1
 
 El sistema de diseño aun está en proceso por lo que solo se muestra el avance actual.
+
+### Paleta de colores
 
 ![vista de calculadora](https://github.com/josechee/ShareLove/blob/dani/img/colores.png)
 
