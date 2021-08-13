@@ -62,6 +62,7 @@
         app:layout_constraintTop_toBottomOf="@+id/toolbar">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textNombre"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPersonName"
@@ -81,9 +82,10 @@
         app:layout_constraintTop_toBottomOf="@+id/inputNombre">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textTelefono"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:inputType="textPersonName"
+            android:inputType="phone"
             android:textColor="@color/texto_100"
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
@@ -101,6 +103,7 @@
         app:layout_constraintTop_toBottomOf="@+id/inputTelefono">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textCorreo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress"
@@ -121,6 +124,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textPass"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPassword"
@@ -129,7 +133,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnIniciarSesion"
+        android:id="@+id/btnCrearC"
         android:layout_width="320dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -156,7 +160,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion"
+        app:layout_constraintTop_toBottomOf="@+id/btnCrearC"
         app:strokeColor="@color/botoncolor" />
 
     <androidx.constraintlayout.widget.Guideline

@@ -82,7 +82,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textEmailAddress"
-            android:textColor="@color/texto_100"
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -102,7 +101,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="textPassword"
-            android:textColor="@color/texto_100"
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 

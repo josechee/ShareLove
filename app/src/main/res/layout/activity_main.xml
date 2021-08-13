@@ -69,7 +69,6 @@
             android:layout_height="match_parent"
             android:fontFamily="@font/montserrat"
             android:inputType="textEmailAddress"
-            android:textColor="@color/texto_100"
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -91,12 +90,11 @@
             android:layout_height="match_parent"
             android:fontFamily="@font/montserrat"
             android:inputType="textPassword"
-            android:textColor="@color/texto_100"
             android:textSize="18sp" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/btnIniciarSesion"
+        android:id="@+id/btnCrearC"
         android:layout_width="320dp"
         android:layout_height="56dp"
         android:layout_marginTop="16dp"
@@ -139,25 +137,24 @@
         android:fontFamily="@font/montserrat"
         android:text="@string/olvidaste_t"
         android:textAllCaps="false"
-        android:textColor="@color/texto"
         android:textStyle="normal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnIniciarSesion" />
+        app:layout_constraintTop_toBottomOf="@+id/btnCrearC" />
 
     <TextView
         android:id="@+id/no_tienes_u"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="@font/montserrat"
         android:gravity="center_horizontal|top"
 
         android:lineSpacingExtra="2sp"
         android:text="@string/no_tienes_cuenta"
         android:textAppearance="@style/no_tienes_u"
-        android:textColor="@color/texto"
+        android:textColor="@color/textColorPrimary"
         android:translationY="-1.08sp"
         app:layout_constraintEnd_toStartOf="@+id/btnCrearCuenta"
         app:layout_constraintHorizontal_bias="0.818"
