@@ -1,16 +1,13 @@
 package org.bedu.sharelove
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.ImageView
 import android.widget.RatingBar
 import android.widget.TextView
-import org.bedu.sesion5.DetailActivity
 
 class DetailFragment : Fragment() {
 
@@ -19,6 +16,7 @@ class DetailFragment : Fragment() {
     private lateinit var rbRate: RatingBar
     private lateinit var imgProduct: ImageView
     private lateinit var tvPrice: TextView
+
 
 
     override fun onCreateView(
@@ -34,6 +32,7 @@ class DetailFragment : Fragment() {
         rbRate = view.findViewById(R.id.km)
         imgProduct = view.findViewById(R.id.imgProduct)
         tvPrice = view.findViewById(R.id.tvQuantity)
+
 
 
 

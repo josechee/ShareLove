@@ -8,7 +8,7 @@ class Product (
     val description: String,
     val quantity: String,
     val rating: Float,
-    val idImage: Int
+    val idImage: Int,
 ): Parcelable {
     constructor(parcel: Parcel) : this(
         parcel.readString()!!,

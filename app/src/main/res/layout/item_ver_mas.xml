@@ -25,7 +25,7 @@
             <ImageView
                 android:id="@+id/imgProduct"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
+                android:layout_height="200dp"
                 android:contentDescription="@+Product/tvProduct"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/hotdog" />

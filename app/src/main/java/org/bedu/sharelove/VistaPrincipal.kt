@@ -6,15 +6,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.*
 import android.widget.Button
-import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.widget.Toolbar
 import androidx.core.view.GravityCompat
 import androidx.drawerlayout.widget.DrawerLayout
 import com.google.android.material.navigation.NavigationView
-import com.google.android.material.snackbar.Snackbar
-import org.bedu.sesion5.DetailActivity
-import org.bedu.sharelove.databinding.ActivityMainBinding
 
 
 class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
@@ -93,7 +89,7 @@ class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelec
 //    }
 
 
-    override fun onOptionsItemSelected(item_contact: MenuItem): Boolean {
+  /*  override fun onOptionsItemSelected(item_contact: MenuItem): Boolean {
 
         when(item_contact.itemId) {
             R.id.shirt -> startActivity(Intent(this, Articulos::class.java))
@@ -103,16 +99,16 @@ class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelec
         }
 
         return super.onOptionsItemSelected(item_contact)
-    }
+    }*/
 
-    override fun onNavigationItemSelected(item_contact: MenuItem): Boolean {
+   /* override fun onNavigationItemSelected(item_contact: MenuItem): Boolean {
         when (item_contact.itemId) {
             R.id.nav_home -> startActivity(Intent(this, Perfil::class.java))
         }
         drawer.closeDrawer(GravityCompat.START)
         return true
 
-    }
+    }*/
     override fun onPostCreate(savedInstanceState: Bundle?) {
         super.onPostCreate(savedInstanceState)
         toggle.syncState()
@@ -120,6 +116,10 @@ class VistaPrincipal : AppCompatActivity(), NavigationView.OnNavigationItemSelec
     override fun onConfigurationChanged(newConfig: Configuration) {
         super.onConfigurationChanged(newConfig)
         toggle.onConfigurationChanged(newConfig)
+    }
+
+    override fun onNavigationItemSelected(item: MenuItem): Boolean {
+        TODO("Not yet implemented")
     }
 
 

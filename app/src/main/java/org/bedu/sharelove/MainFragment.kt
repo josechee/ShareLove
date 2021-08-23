@@ -49,7 +49,7 @@ private var listener : (Product) ->Unit = {}
     private fun getProducts(): MutableList<Product>{
         var products:MutableList<Product> = ArrayList()
 
-        products.add(Product("Hamburguesa", "Regalo 3 hamburguesas, favor de mandar mensaje para acordar el punto de encuentro", "2",4.6f,R.drawable.hamburguesa))
+        products.add(Product("Hamburguesa", "Regalo 3 hamburguesas, favor de mandar mensaje para acordar el punto de encuentro", "2",4.6f,R.drawable.valentina))
         products.add(Product("2 kilos de manzanas", "Estan en buenas condiciones, tengo mas kilos por si alguien quiere puede venir por ellas", "12",4.4f,R.drawable.manzanas))
         products.add(Product("Brochetas de res", "Regalo platillo de brochetas, estoy por la colonia centro, favor de mandarme privado entrego de 10am a 12pm", "10",3.8f,R.drawable.brochetas))
         products.add(Product("Regalo fruta picada", "Tenemos mucha fruta picada, nosotros vendemos y se quedo no quiero que se heche a perder, por favor pasen por ella", "5",4.8f,R.drawable.coctel))
